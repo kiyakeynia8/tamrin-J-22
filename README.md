@@ -19,3 +19,11 @@ pip install sqlite3
 and
 
 ![app2](to_do_list_2.PNG)
+
+# To convert the file to an EXE file
+
+```
+pip install pyinstaller
+
+pyinstaller main.py
+```
