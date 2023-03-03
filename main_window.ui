@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>352</width>
-    <height>371</height>
+    <width>325</width>
+    <height>367</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(0, 223, 255, 69), stop:0.375 rgba(0, 212, 255, 69), stop:0.423533 rgba(0, 255, 190, 145), stop:0.45 rgba(0, 180, 255, 208), stop:0.477581 rgba(71, 146, 255, 130), stop:0.518717 rgba(71, 146, 255, 130), stop:0.55 rgba(0, 104, 255, 255), stop:0.57754 rgba(0, 104, 255, 130), stop:0.625 rgba(0, 104, 255, 69), stop:1 rgba(0, 255, 180, 69));</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -25,6 +28,12 @@
       </item>
       <item>
        <widget class="QPushButton" name="btn_new_task">
+        <property name="font">
+         <font>
+          <family>MRT_Nil 3</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>+</string>
         </property>
@@ -35,6 +44,59 @@
     <item>
      <widget class="QTextEdit" name="tb_n_t_d"/>
     </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <family>MRT_Nil 3</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>insert date</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <family>MRT_Nil 3</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>insert time</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="date"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="time"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="font">
+       <font>
+        <family>MRT_Nil 3</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Important              or               Normal</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="i_o_n"/>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -42,7 +104,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>352</width>
+     <width>325</width>
      <height>21</height>
     </rect>
    </property>
